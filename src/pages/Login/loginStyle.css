@@ -3,6 +3,8 @@
 
 
 .box-login{
+    width: 70%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,4 +13,26 @@
     background-color: #4FE2E2;
     border: 1px solid #4FE2E2;
     border-radius: 20px;
+    margin-top: 40px;
+}
+
+.form-login{
+    text-align: left;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.login input{
+    width: 340px;
+    height: 35px;
+    padding-left: 10px;
+    border: 1px solid #4FE2E2;
+    border-radius: 15px;
+  
+
 }

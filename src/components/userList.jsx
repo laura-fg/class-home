@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import NavbarLogin from "./navbar";
+import '../styles/userList.css';
 
  const users = [ 
     {id: 1, name: "Chris Evans", username: "chris", email: " chris@gmail.com", turma: "T1", matricula: 4554, idade: 15, situacao: "Ativo"},
@@ -14,14 +16,17 @@ import { Link } from "react-router-dom";
 export default function UserList(){
 
     return (
-        <div>
+        <>
+        <NavbarLogin />
+        <div className="listUsers">
             {users.map((user, id) => (
-                <div key={user.id}>
-                <Link to={`/users/${user.name}/${user.email}/${user.turma}/${user.matricula}/${user.idade}/${user.situacao}`}> {user.username} </Link>
-                
+                <div className="box-link" key={user.id}> 
+                <Link className="link" to={`/users/${user.name}/${user.email}/${user.turma}/${user.matricula}/${user.idade}/${user.situacao}`}> {user.username} </Link>
+                 
                 </div> 
             ))}
             
         </div> 
+        </>
     )
 }
