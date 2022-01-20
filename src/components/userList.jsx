@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import NavbarLogin from "./navbar";
 import '../styles/userList.css';
+import 'primeicons/primeicons.css';
 
  const users = [ 
     {id: 1, name: "Chris Evans", username: "chris", email: " chris@gmail.com", turma: "T1", matricula: 4554, idade: 15, situacao: "Ativo"},
@@ -21,8 +22,8 @@ export default function UserList(){
         <div className="listUsers">
             {users.map((user, id) => (
                 <div className="box-link" key={user.id}> 
-                <Link className="link" to={`/users/${user.name}/${user.email}/${user.turma}/${user.matricula}/${user.idade}/${user.situacao}`}> {user.username} </Link>
-                 
+               <Link className="link" to={`/users/${user.name}/${user.email}/${user.turma}/${user.matricula}/${user.idade}/${user.situacao}`}> {user.name}  <i className="pi pi-user-edit" style={{ color:"black"}}></i> </Link>
+             
                 </div> 
             ))}
             

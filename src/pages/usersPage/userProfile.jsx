@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
-
+import  NavbarLogin from '../../components/navbar'
 
 
 export default function UserProfile({users}) {
@@ -9,9 +9,10 @@ export default function UserProfile({users}) {
 
 
     return (
-  
+      <>
+      <NavbarLogin />
       <div key={id} className='container'> 
-
+      
         <h2> Informações do Usuário {username} </h2> 
 
     
@@ -23,7 +24,7 @@ export default function UserProfile({users}) {
             <p> Situação: {situacao} </p>
          
       </div>
- 
+      </>
 
 
     )
