@@ -9,9 +9,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-    background-color: #4FE2E2;
-    border: 1px solid #4FE2E2;
+    color: rgba(2,0,36,1);
+    background-color: white;
+    border: 1px solid rgba(2,0,36,1);
     border-radius: 20px;
     margin-top: 40px;
 }
@@ -31,8 +31,14 @@
     width: 340px;
     height: 35px;
     padding-left: 10px;
-    border: 1px solid #4FE2E2;
+    border: 1px solid rgba(0,212,255,1);
     border-radius: 15px;
-  
+}
 
+.btn-login{
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: rgba(0,212,255,1);
+    align-items: center;
 }

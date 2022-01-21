@@ -24,6 +24,10 @@ export default function Login() {
                    <input type="password" placeholder='Digite sua senha'/>
                    <p> Esqueceu sua senha?</p>
                </div>
+
+               <div>
+                   <button className="btn-login"> Entrar </button>
+               </div>
             </div>
           </main> 
          </div>
