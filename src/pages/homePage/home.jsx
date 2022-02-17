@@ -105,6 +105,7 @@ const { basicOptions} = getLightTheme();
                 
              <NavbarLogin /> 
              {/*<Link to={"/userList"}> Lista de usuários </Link> */}
+             <div className="body"> 
              <div className="container-charts">
               <div className="card">
                     <h5>Relatório de Reprovação anual </h5>
@@ -119,7 +120,7 @@ const { basicOptions} = getLightTheme();
          
 
          </div>
-
+     </div>
          </>
     )
          

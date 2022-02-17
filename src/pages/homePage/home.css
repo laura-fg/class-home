@@ -2,23 +2,24 @@
     display:flex;
     justify-content:space-around;
     align-items:center;
-    
     border: 2px solid  rgba(0,212,255,1);
     border-radius: 15px;
     margin: 34px;
-    width: 1600px;
+    width: 1400px;
     height: 80vh;
+   
 }
 
 
 .card{
     width: 620px;
-   
     border:none !important;
-   
 }
 
-.rosca{
+.body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+  }
+  
 
- 
-}
