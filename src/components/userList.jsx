@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import NavbarLogin from "./navbar";
 import '../styles/userList.css';
-import 'primeicons/primeicons.css';
+//import 'primeicons/primeicons.css';
 
  const users = [ 
     {id: 1, name: "Chris Evans", username: "chris", email: " chris@gmail.com", turma: "T1", matricula: 4554, idade: 15, situacao: "Ativo"},

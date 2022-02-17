@@ -1,0 +1,24 @@
+.container-charts{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    
+    border: 2px solid  rgba(0,212,255,1);
+    border-radius: 15px;
+    margin: 34px;
+    width: 1600px;
+    height: 80vh;
+}
+
+
+.card{
+    width: 620px;
+   
+    border:none !important;
+   
+}
+
+.rosca{
+
+ 
+}
