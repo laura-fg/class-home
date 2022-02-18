@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import NavbarLogin from "./navbar";
 import '../styles/userList.css';
+import  FilterAlunos  from "./filterAlunos";
 //import 'primeicons/primeicons.css';
 
  const users = [ 
@@ -19,6 +20,8 @@ export default function UserList(){
     return (
         <>
         <NavbarLogin />
+
+     <FilterAlunos/>
         <div className="listUsers">
             {users.map((user, id) => (
                 <div className="box-link" key={user.id}> 
