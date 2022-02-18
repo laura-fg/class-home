@@ -4,6 +4,7 @@ import  UserList from './components/userList';
 import  UserProfile from './pages/usersPage/userProfile';
 import  Home  from './pages/homePage/home.jsx';
 import Login from './pages/Login/login.jsx';
+import Cadastro from './pages/cadastro/cadastro.jsx';
 function App() {
   return (
     <BrowserRouter>
@@ -12,6 +13,7 @@ function App() {
       <Route path="/LOGIN" component={Login} />
       <Route path="/users/:name?/:email?/:turma?/:matricula?/:idade?/:situacao" component={UserProfile} />
       <Route path="/UserList" component={UserList}/>
+      <Route path="/Cadastro" component={Cadastro}/>
      
       </Switch>
     </BrowserRouter>

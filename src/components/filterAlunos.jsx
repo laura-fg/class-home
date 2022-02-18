@@ -8,21 +8,20 @@ export default function FilterAlunos() {
         <div>
          
          <Form>
-  <Form.Group className="mb-3 item-form" controlId="formBasicEmail">
-    <Form.Label>Turma</Form.Label>
-    <Form.Control type="text" placeholder="Informe a Turma do aluno" />
+            <Form.Group className="mb-3 item-form" controlId="formBasicEmail">
+                <Form.Label>Turma</Form.Label>
+                <Form.Control type="text" placeholder="Informe a Turma do aluno" />
+            </Form.Group>
 
-  </Form.Group>
+            <Form.Group className="mb-3 item-form" controlId="formBasicEmail">
+                <Form.Label>Número de Matrícula do aluno</Form.Label>
+                <Form.Control type="text" placeholder="Informe o número da matrícula" />
+            </Form.Group>
 
-  <Form.Group className="mb-3 item-form" controlId="formBasicEmail">
-    <Form.Label>Número de Matrícula do aluno</Form.Label>
-    <Form.Control type="text" placeholder="Informe o número da matrícula" />
-  </Form.Group>
-
-  <Button className="btn-form" variant="primary" type="submit">
-   Buscar
-  </Button>
-  </Form>
-</div> 
+            <Button className="btn-form" variant="primary" type="submit">
+            Buscar
+            </Button>
+         </Form>
+      </div> 
     )
 }
