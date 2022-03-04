@@ -6,11 +6,9 @@ Sobre
 
 <p> Projeto para Portfólio </p>
 
-<p>- Front-end <p> Projeto</p>
+<p>- Front-end </p>
 <hr/>
   Tecnologias: 
-   <br>
-
   1. HTML5
    <br>
   2. CSS3
