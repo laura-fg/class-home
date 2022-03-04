@@ -2,13 +2,13 @@
  <br>
  <h1> ClassHome</h1> 
  
-Sobre
+
 
 <p> Projeto para Portfólio </p>
 
-<p>- Front-end </p>
-<hr/>
-  Tecnologias: 
+<p> Front-end - Tecnologias: </p>
+
+  
   1. HTML5
    <br>
   2. CSS3
