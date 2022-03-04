@@ -10,13 +10,13 @@
 
   
   1. HTML5
-   <br>
+   
   2. CSS3
-   <br>
+   
   3. Reactjs
-   <br>
+   
   4. React-Bootstrap
-   <br>
+   
 
   ....em desevolvimento
 
