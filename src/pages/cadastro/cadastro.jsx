@@ -33,7 +33,16 @@ export default function Cadastro() {
 
         <Form.Group className="mb-3 item-cadastro" controlId="formBasicEmail">
             <Form.Label>Turma</Form.Label>
-            <Form.Control type="text" placeholder="Turma" />
+            <Form.Select type="text">
+                <option>Selecione uma Turma</option>
+                <option>T1</option>
+                <option>T2</option>
+                <option>T3</option>
+                <option>T4</option>
+                <option>T5</option>
+                <option>T6</option>
+                <option>T7</option>
+                </Form.Select>
         </Form.Group>
 
   

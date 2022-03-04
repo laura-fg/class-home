@@ -1,3 +1,35 @@
+
+ <br>
+ <h1> ClassHome</h1> 
+ 
+Sobre
+
+<p> Projeto para Portfólio </p>
+
+- Front-end 
+  Tecnologias: 
+
+  HTML5
+  CSS3
+  Reactjs
+  React-Bootstrap
+
+  ....em desevolvimento
+
+Aplicação disponível através do Heroku: 
+
+[Acompanhe a evolução](https://class-home.herokuapp.com)
+=======
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
