@@ -6,13 +6,19 @@ Sobre
 
 <p> Projeto para Portfólio </p>
 
-- Front-end 
+<p>- Front-end <p> Projeto</p>
+<hr/>
   Tecnologias: 
+   <br>
 
-  HTML5
-  CSS3
-  Reactjs
-  React-Bootstrap
+  1. HTML5
+   <br>
+  2. CSS3
+   <br>
+  3. Reactjs
+   <br>
+  4. React-Bootstrap
+   <br>
 
   ....em desevolvimento
 
